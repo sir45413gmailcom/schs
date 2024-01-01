@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <script src="https://kit.fontawesome.com/d9f3a09716.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+<section id="home">
+    <nav id="home">
+        <img src="bdg.jpg"  class="logo"><h1 class="k">KWLC</h1>
+        <ul id="menu-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <button class="nav-btn">Vist Us To Know More<img src="arrow-white.png"></button>
+    
+        <img src="menu.png" class="menu-icon" onclick="toogleMenu()">
+    </nav>
+    <div class="header"> 
+        <div class="header-content">
+            <h1><span>KIWOLC</span></h1>
+            <h2><span>WITH TIME AN EGG WILL WALK</span></h2>
+        <p>
+            
+            Welcome to KWLC Kindergarten, where we <span>provide a nurturing, <br>fun, and creative learning environment</span>  for your children. 
+             
+        </p>
+        </div>
+    
+        <img src="dian.png"  class="user-img">
+    </div>
+</section>
+<section id="about" class="about">
+   <h1>About Us</h1>
+    <p>Welcome to KIWOLC Kindergarten, a place where children learn, play, and grow.
+         We are a licensed and accredited preschool and kindergarten that offers high-quality education and care for children aged 2 to 6 years old.
+          
+
+        At KIWOLC Kindergarten, we believe that every child is unique and has the potential to achieve their goals.
+         We follow a child-centered and play-based curriculum that is aligned with the national standards and best practices in early childhood education.
+          Our curriculum covers various domains such as language and literacy, math, science, arts, music, and physical education. We also incorporate multicultural 
+          and global perspectives to help children appreciate diversity and become responsible citizens of the world.
+        
+        Our teachers are qualified, experienced, and passionate about working with young children.
+         They use a variety of teaching methods and strategies to meet the individual needs and interests of each child. 
+         They also collaborate with parents and families to support the learning and development of their children at home and at school.</p>
+        <div class="motto">
+            <h2>MOTTO</h2>
+            <p>with time an egg will walk</p>
+        </div>
+</section>
+
+<section id="services" class="section">
+    <div class="title" >
+        <h1>Our Services</h1>
+    </div>
+    <div class="services">
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-book"></i>
+            </div>
+            <h2>Learning</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Earum dolore in consectetur,
+                 minus praesentium, incidunt quasi suscipit voluptatem sed 
+                 amet architecto provident 
+                 iure officia nulla assumenda quo deleniti beatae!</p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-bowl-food"></i>
+            </div>
+            <h2>cafeteria</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Earum dolore in consectetur,
+                 minus praesentium, incidunt quasi suscipit voluptatem sed 
+                 amet architecto provident 
+                 iure officia nulla assumenda quo deleniti beatae!</p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-hands-holding-child"></i>
+            </div>
+            <h2>Caring</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Earum dolore in consectetur,
+                 minus praesentium, incidunt quasi suscipit voluptatem sed 
+                 amet architecto provident 
+                 iure officia nulla assumenda quo deleniti beatae!</p>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+    
+<section id="contact" class="contact">
+    <h1>Contact Us</h1>
+    <p class="more">For More Information Please Contact Us</p>
+    <p ><img class="face" src="face.png"><span>@</span>KitandweRobert</p>
+    <p><img class="what" src="w.png">+256 700 309906</p>
+    <p><img class="phone" src="phone.png">+256 702 374933</p>
+    <button><a class="contact__btn" href="mailto:sir45413@gmail.com" target="_blank">Reach Out</a></button>
+    
+</section>
+<footer class="footer">
+    <h3 class="footer__tittle">~KIWOLC~ </h3>
+  </footer>
+
+<script>
+    let navbar = document.querySelector('nav');
+    let menuLinks = document.getElementById("menu-links");
+
+    function toogleMenu(){
+        menuLinks.classList.toggle('show-menu');
+    }
+
+
+    Window.onscroll = function(){
+        if(window.scrollY > 0){
+            navbar.style.background ='#eefff9';
+        }else{
+            navbar.style.background ='transparent';
+        }
+    }
+
+
+
+</script>
+
+</body>
+</html>

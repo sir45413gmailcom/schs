@@ -1,0 +1,96 @@
+.contact{
+    background: linear-gradient(rgb(215, 230, 3),white,rgb(238, 255, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.contact h1{
+    font-size: 40px;
+    color: rgb(10, 10, 123);
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.contact h1::after{
+    content: "";
+    height: 4px;
+    width: 200px;
+    background-color: blue;
+    display: block;
+    margin: auto;
+}
+
+.contact p{
+    color: rgb(10, 10, 123);
+    font-weight: 300;
+    margin-left: 2px;
+}
+
+.contact p img{
+    padding-right: 5px;
+}
+
+.contact p span{
+    color: #d50d0d;
+    font-weight: 700;
+}
+
+.more{
+    font-weight: 700;
+}
+
+.phone{
+    width: 20px;
+}
+
+.what{
+    width: 20px;
+}
+
+.face{
+    width: 30px;
+    
+}
+
+button{
+    display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+button a{
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color:#e11d48;
+    color: #f1f5f9;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(225, 29, 72, 0.5), 0 6px 6px rgb(225, 29, 72, 0.5), 0 0 100px -100px #e11d48;
+    transition: all 0.3s;
+    
+  }
+
+  button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgb(225, 29, 72, 0.25), 0 10px 10px rgb(225, 29, 72, 0.22), 0 0 120px -10px #e11d48;
+}
+
+.footer{
+    background-color: rgb(238, 255, 0);
+    padding: 15PX;
+    font-size: 0.75rem;
+    color: rgb(10, 10, 123);
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    user-select: none;
+}
